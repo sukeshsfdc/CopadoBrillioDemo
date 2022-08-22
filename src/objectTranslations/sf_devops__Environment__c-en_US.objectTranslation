@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Can Track Changes --></label>
+        <name>sf_devops__Can_Track_Changes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Revision Counter --></label>
+        <name>sf_devops__Last_Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Named Credential --></label>
+        <name>sf_devops__Named_Credential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operation Result --></label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel><!-- Environments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel><!-- Environments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Test Environment --></label>
+        <name>sf_devops__Test_Environment__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Environments require a unique name. --></errorMessage>
+        <name>sf_devops__Unique_Name</name>
+    </validationRules>
+</CustomObjectTranslation>
